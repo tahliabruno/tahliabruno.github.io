@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Fugaz One", sans-serif important!;
+  font-family: "Fugaz One", sans-serif;
   margin: 0 auto;
   padding: 0;
 }
@@ -19,11 +19,11 @@ body {
 /* Resume template specific styles  */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fugaz One, sans-serif";
+  font-family: "Fugaz One", sans-serif;
 }
 
 h1 {
-	 color: transparent;
+	 color: #c93258;
 	 font-weight: 700;
 	 padding-bottom: 1rem;
 	 font-size: 3rem;
@@ -45,7 +45,7 @@ h1 {
 			 }
 
 h2 {
-  color: #DB714B;
+  color: #ee85b6;
 padding-top: .5rem;
 font-size: 2.5rem;
 }
@@ -53,7 +53,7 @@ font-size: 2.5rem;
 h3 {
   padding-bottom: 0.3rem;
   padding-top: 1rem;
-	color: #DB714B;
+  color: #ee85b6;
 }
 
 h3.navmenu {
@@ -83,7 +83,7 @@ color: #DB7F96;
 }
 
 p, ul, ol, li, a {
-font-family: "Fugaz One', sans-serif";
+font-family: "Fugaz One", sans-serif;
 color: #DB7F96;
 }
 
@@ -188,7 +188,7 @@ color: #DB5D6A;
 padding: 0;
 font-size: 5rem;
 display: inline-block;
-color: #DB5D6A
+color: #ee85b6;
 }
 
 .break:after {
@@ -562,7 +562,7 @@ animation: loading-3 1s linear forwards 1.8s;
 }
 
 .progress.pink .progress-bar{
-border-color: #DB714B;
+border-color: #DB5D6A;
 }
 
 .progress.pink .progress-left .progress-bar{
@@ -991,7 +991,7 @@ transition: all 400ms ease;
 }
 
 .accordion ul li div a h2 {
-font-family: Montserrat, sans-serif;
+font-family: "Fugaz One", sans-serif;
 text-overflow: clip;
 font-size: 24px;
 text-transform: uppercase;
