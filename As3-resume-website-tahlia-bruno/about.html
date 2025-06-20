@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- Bootstrap 5.3 template designed for Web and Time-Based Design Subject [DESN1021]- 2023 -->
+<!-- Date: 13 October 2023  -->
+<!-- Author: Web and Time Based Subject -->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- BOOTSTRAP META TAGS - Start -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- BOOTSTRAP META TAGS - End -->
+
+  <!-- META TAGS - Start -->
+  <meta name="description" content="Tahlia Bruno Portfolio Website">
+  <meta name="author" content="Tahlia Bruno">
+  <!-- META TAGS - End -->
+
+  <!-- BOOTSTRAP 5 ICONS - Start -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- BOOTSTRAP 5 ICONS - End -->
+
+  <!-- FAVICON - Start - Adapted from: https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<!-- FAVICON - End -->
+
+  <!-- GOOGLE FONTS - Start: "Fugaz One", sans-serif; -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  <!-- GOOGLE FONTS - End -->
+
+  <!-- BOOTSTRAP 5 - Centre Navigation Logo - Start: https://www.codehim.com/bootstrap/bootstrap-5-navbar-with-center-logo/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://codepen.io/badiali/pen/Vwxmzrg.css">
+  <!-- BOOTSTRAP 5 - Centre Navigation Logo - End -->
+
+  <!-- BOOTSTRAP 5 CORE CSS - Start - Adapted from: https://getbootstrap.com/docs/5.3/getting-started/download/ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- BOOTSTRAP 5 CORE CSS - End -->
+
+  <!-- Your custom styles for this template - must be after Bootstrap's link element to over ride it (load after) as needed -->
+
+  <!-- CUSTOM STYLES - Start -->
+  <link href="css/custom.css" rel="stylesheet">
+  <!-- CUSTOM STYLES - End -->
+
+  <title>Tahlia Bruno | Portfolio</title>
+</head>
+
+<body class="bg-dark d-flex flex-column min-vh-100">
+
+
+  <!-- HEADER - BOOTSTRAP 5 Navbar with Centre Logo - Start: https://www.codehim.com/bootstrap/bootstrap-5-navbar-with-center-logo/ -->
+
+  <header data-headroom class="header fixed-top">
+    <nav class="navbar navbar-expand-lg text-uppercase py-0">
+      <a class="navbar-brand d-lg-none py-0 ms-4 me-0" href="#">
+        <span class="fw-bold"><img src="img/tahliaicon.jpg" class="img-fluid rounded" alt="???"></span>
+      </a>
+      <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="navbarOffcanvasLg">
+        <div class="container-lg">
+          <div class="row flex-grow-1 p-4 p-lg-0">
+            <div class="d-flex d-lg-block col-lg-4 order-1 order-lg-2 text-lg-center">
+              <button type="button" class="d-lg-none border-0 bg-transparent p-0 ms-auto" data-bs-dismiss="offcanvas"
+                aria-label="Cerrar">
+                <i class="fa-solid fa-close"></i>
+              </button>
+              <a class="navbar-brand d-none d-lg-block py-0 me-0" href="index.html">
+                Tahlia<span class="fw-bold">Bruno</span>
+              </a>
+            </div>
+            <div class="col-lg-4 order-2 order-lg-1 ms-auto ms-lg-0">
+              <ul class="navbar-nav d-flex flex-column flex-lg-row">
+                <li class="nav-item me-4 me-xxl-5">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-3">
+              <ul class="navbar-nav d-flex flex-column flex-lg-row justify-content-lg-end">
+                <li class="nav-item me-4 me-xxl-5">
+                  <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+  <!-- HEADER - BOOTSTRAP 5 Navbar with Centre Logo - End -->
+
+  <!-- SWITCH - Start: https://www.cssscript.com/dark-mode-switcher-bootstrap-5/ -->
+  <div class="form-check form-switch ms-auto mt-3 me-3">
+    <label class="form-check-label ms-3" for="lightSwitch">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-brightness-high"
+        viewBox="0 0 16 16">
+        <path
+          d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+      </svg>
+    </label>
+    <input class="form-check-input" type="checkbox" id="lightSwitch">
+  </div>
+
+
+  <!-- SWITCH - End -->
+
+  <!-- Content goes here -->
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Tahlia | About Me and my life </h1>
+        <h2>Tahlia's Story</h2>
+        <p>Tahlia is a passionate <span class="standout">creator and booklover,</span> She worked as a <span
+            class="standout">barista</span> <span class="standout"> bar and gaming attendant</span> within the Western
+          Sydney Region, has travelled overseas to Japan and the United States and is currently
+          <span class="standout"> Creative Director </span> and will continue on and
+          graduate with a <span class="standout"> Masters of Event Management</span> with previous experience of studying a <span>Bachelor of Communications</span> majoring in <span class="standout">Journalism</span> and minoring in <span class="standout">Public Relations.</span></p>
+
+      </div>
+    </div>
+
+    <div>
+
+         <p>Tahlia is very interested in pop culture media which includes music, movies, sports, video games
+        and books. She has a keen interest in Formula 1 and has been for the past 2 years. She hopes one day she can
+        attend the Melbourne, Monaco, Monza and Singapore grand prix's in the future</p>
+     </div>
+
+    </div>
+    
+
+    <!-- FLOATING STICKY SOCIAL MEDIA - Start -->
+
+             <div class="icon-bar d-none d-md-block">
+               <a href="https://facebook.com" class="facebook rounded-3"><i class="bi bi-facebook fs-3"></i></a>
+               <a href="https://twitter.com" class="twitter rounded-3"><i class="bi bi-twitter fs-3"></i></a>
+               <a href="https://google.com" class="google rounded-3"><i class="bi bi-google fs-3"></i></a>
+               <a href="https://linkedin.com" class="linkedin rounded-3"><i class="bi bi-linkedin fs-3"></i></a>
+               <a href="https://youtube.com" class="youtube rounded-3"><i class="bi bi-youtube fs-3"></i></a>
+           </div>
+
+    <!-- FLOATING STICKY SOCIAL MEDIA - End -->
+
+
+    <!-- FOOTER - Start: https://getbootstrap.com/docs/5.3/examples/footers/ -->
+
+    <div class="container mt-auto">
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0">&copy; 2025 Tahlia Bruno</p>
+
+        <ul
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none list-unstyled">
+          <li class="ms-3"> <a class="footsocial" href="https://www.instagram.com" target="_blank"><i
+                class="bi bi-instagram fs-3"></i></a></li>
+          <li class="ms-3"><a class="footsocial" href="mailto:margesimpson@gmail.com" target="_blank"><i
+                class="bi bi-envelope fs-3"></i></a></li>
+          <li class="ms-3"><a class="footsocial" href="https://www.linkedin.com" target="_blank"><i
+                class="bi bi-linkedin fs-3"></i></a></li>
+        </ul>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2">About</a></li>
+          <li class="nav-item"><a href="resume.html" class="nav-link px-2">Resume</a></li>
+          <li class="nav-item"><a href="portfolio.html" class="nav-link px-2">Portfolio</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2">Contact</a></li>
+        </ul>
+      </footer>
+
+
+    </div>
+    <!-- FOOTER - End -->
+
+    <!-- =================No Content below here========================= -->
+    <!-- Bootstrap JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!--  BOOTSTRAP BUNDLE WITH POPPER - Start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+    <!--  BOOTSTRAP BUNDLE WITH POPPER - End -->
+
+    <!-- LIGHT AND DARK MODE SWITCH - Start: https://www.cssscript.com/dark-mode-switcher-bootstrap-5/ -->
+    <script src="js/switch.js"></script>
+    <!-- LIGHT AND DARK MODE SWITCH - End -->
+
+</body>
+
+</html>
+
+<!-- Bootstrap 5.3 template designed for Web and Time-Based Design Subject [DESN1021]- 2023 -->
